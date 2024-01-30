@@ -25,7 +25,6 @@
         <li>Instagram </li>
         <li>Twitter</li>
     </ul>
-
     <ol type="1" start="1">
         <li>Facebook</li>
         <li>Instagram</li>
@@ -37,7 +36,6 @@
         <caption>
             Table Caption
         </caption>
-
         <thead>
             <tr>
                 <th>1</th>
@@ -45,7 +43,6 @@
                 <th>3</th>
             </tr>
         </thead>
-
         <tbody>
             <tr>
                 <td>First 1</td>
@@ -63,7 +60,6 @@
                 <td>Third 3</td>
             </tr>
         </tbody>
-
         <tfoot>
             <tr>
                 <td colspan="2">Total</td>
@@ -72,6 +68,123 @@
         </tfoot>
 
     </table>
+
+    <audio controls>
+        <source src="Sounds/UwU - SOUND EFFECT.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <video hidden width="655" height="455" controls poster="Images/wallpaperflare.com_wallpaper.jpg">
+        <source src="Sounds/e85836aa3abf468d967f3dcb7e046dfd.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        <track src="file1.vtt" kind="subtitles" srclang="ar" label="Arabic">
+        <track src="file2.vtt" kind="subtitles" srclang="en" label="English">
+    </video>
+
+    <form action="" method="post">
+        <div>
+            <label>ID</label>
+            <input type="text" value="2021170523" name="id" readonly>
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="hidden" value="kljklasssjhe1289uzaiczxckjk1$asd1@#@^SDFSDFSDF@#$">
+            <input type="email" placeholder="Enter Your Email" required name="email" autofocus>
+        </div>
+        <br>
+        <div>
+            <label>Username</label>
+            <input type="text" placeholder="Enter Your Username" required name="username">
+        </div>
+        <br>
+        <div>
+            <label>Address</label>
+            <input type="text" value="Lejour" name="address" disabled>
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <input type="password" placeholder="Enter Your Password" required name="password" minlength="9"
+                maxlength="31">
+        </div>
+        <br>
+        <div>
+            <label>Range</label>
+            <input type="range" name="range" min="0" max="100" step="20" value="0">
+        </div>
+        <br>
+        <div>
+            <label>Number</label>
+            <input type="number" name="number" min="0" max="100" step="10" value="0">
+        </div>
+        <hr>
+        <div>
+            <div>
+                <label>Gender</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" value="male" checked id="male">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Female</label>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div>
+                <label>Hoppies</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Hoppies" value="swimming" id="swimming">
+                <label for="swimming">Swimming</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Hoppies" value="football" id="football">
+                <label for="football">Football</label>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div>
+                <label for="medicines">Choose Medicine </label>
+                <select name="medicines" id="medicines">
+                    <optgroup label="Group 1">
+                        <option value="painkiller">Painkiller</option>
+                        <option value="antibiotic">Antibiotic</option>
+                        <option value="antiseptic">Antiseptic</option>
+                    </optgroup>
+                    <optgroup label="Painkiller">
+                        <option value="felagel">Felagel</option>
+                        <option value="panadol" selected>Panadol</option>
+                        <option value="panadol_extra">Panadol EXTRA</option>
+                        <option value="clear">Clear</option>
+                    </optgroup>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment" cols="30" rows="10" placeholder="Enter Your Comment"></textarea>
+        </div>
+        <br>
+        <div>
+            <input list="list">
+            <datalist id="list">
+                <option value="painkiller"> </option>
+                <option value="antibiotic"> </option>
+                <option value="antiseptic"> </option>
+            </datalist>
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Send">
+        </div>
+    </form>
 
 </body>
 
