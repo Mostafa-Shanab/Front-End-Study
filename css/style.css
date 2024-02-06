@@ -103,22 +103,22 @@ h1 {
 
 }
 
-.flex {
+.grid {
   background-color: #eee;
-  display: flex;
-  flex-flow: row wrap;
-  /* justify-content: center;
-  align-items: center;
-  align-content: center; */
-  height: 900px;
-  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 11px;
+  width: 800px;
+  height: 600px;
   margin: 30px auto;
 }
 
-.flex div {
+.grid div {
+  padding: 20px;
   background-color: red;
   color: white;
   text-align: center;
-  width: 80px;
-  padding: 10px;
+  font-weight: bold;
+  font-size: 25px;
 }
